@@ -1,23 +1,23 @@
 //
-//  ViewController1.m
+//  PortraitViewController.m
 //  timeLine
 //
-//  Created by llbt on 16/3/3.
+//  Created by llbt on 16/3/29.
 //  Copyright © 2016年 llbt. All rights reserved.
 //
 
-#import "ViewController1.h"
+#import "PortraitViewController.h"
 
-@interface ViewController1 ()
+@interface PortraitViewController ()
 
 @end
 
-@implementation ViewController1
+@implementation PortraitViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor greenColor];
+    self.view.backgroundColor = [UIColor brownColor];
 }
 
 - (void)didReceiveMemoryWarning {

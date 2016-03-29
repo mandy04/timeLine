@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "timeLineCell.h"
-#import "ViewController1.h"
+#import "PortraitViewController.h"
 #define kTimeCell  @"TimeLineCell"
 
 #import "TimeLineModel.h"
@@ -107,7 +107,7 @@
     
     //头像点击事件
     [cell.userIV addTapBlock:^(id obj) {
-        ViewController1 *vv = [[ViewController1 alloc]init];
+        PortraitViewController *vv = [[PortraitViewController alloc]init];
         [self.navigationController pushViewController:vv animated:YES];
     }];
     

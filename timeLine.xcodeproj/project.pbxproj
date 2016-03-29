@@ -17,10 +17,10 @@
 		E75D297D1C87CE3800FAAD83 /* timeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D297C1C87CE3800FAAD83 /* timeLineCell.m */; };
 		E75D29801C87D1E500FAAD83 /* UITapImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D297F1C87D1E500FAAD83 /* UITapImageView.m */; };
 		E75D29821C87D35700FAAD83 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E75D29811C87D35700FAAD83 /* 1.png */; };
-		E75D29851C87D97400FAAD83 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D29841C87D97400FAAD83 /* ViewController1.m */; };
 		E75D29881C87E38A00FAAD83 /* timeline_icon_unread@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E75D29861C87E38A00FAAD83 /* timeline_icon_unread@2x.png */; };
 		E75D29891C87E38A00FAAD83 /* timeline_line_unread@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E75D29871C87E38A00FAAD83 /* timeline_line_unread@2x.png */; };
 		E75D298C1C88179800FAAD83 /* TimeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D298B1C88179800FAAD83 /* TimeLineModel.m */; };
+		E7C0DE2E1CAA373F00AB8390 /* PortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C0DE2D1CAA373F00AB8390 /* PortraitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,12 +52,12 @@
 		E75D297E1C87D1E500FAAD83 /* UITapImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITapImageView.h; sourceTree = "<group>"; };
 		E75D297F1C87D1E500FAAD83 /* UITapImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITapImageView.m; sourceTree = "<group>"; };
 		E75D29811C87D35700FAAD83 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		E75D29831C87D97400FAAD83 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
-		E75D29841C87D97400FAAD83 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		E75D29861C87E38A00FAAD83 /* timeline_icon_unread@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline_icon_unread@2x.png"; sourceTree = "<group>"; };
 		E75D29871C87E38A00FAAD83 /* timeline_line_unread@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline_line_unread@2x.png"; sourceTree = "<group>"; };
 		E75D298A1C88179800FAAD83 /* TimeLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineModel.h; sourceTree = "<group>"; };
 		E75D298B1C88179800FAAD83 /* TimeLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineModel.m; sourceTree = "<group>"; };
+		E7C0DE2C1CAA373F00AB8390 /* PortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitViewController.h; sourceTree = "<group>"; };
+		E7C0DE2D1CAA373F00AB8390 /* PortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,14 +106,14 @@
 				E75D295A1C87CD5200FAAD83 /* AppDelegate.m */,
 				E75D295C1C87CD5200FAAD83 /* ViewController.h */,
 				E75D295D1C87CD5200FAAD83 /* ViewController.m */,
+				E7C0DE2C1CAA373F00AB8390 /* PortraitViewController.h */,
+				E7C0DE2D1CAA373F00AB8390 /* PortraitViewController.m */,
 				E75D298A1C88179800FAAD83 /* TimeLineModel.h */,
 				E75D298B1C88179800FAAD83 /* TimeLineModel.m */,
 				E75D297B1C87CE3800FAAD83 /* timeLineCell.h */,
 				E75D297C1C87CE3800FAAD83 /* timeLineCell.m */,
 				E75D297E1C87D1E500FAAD83 /* UITapImageView.h */,
 				E75D297F1C87D1E500FAAD83 /* UITapImageView.m */,
-				E75D29831C87D97400FAAD83 /* ViewController1.h */,
-				E75D29841C87D97400FAAD83 /* ViewController1.m */,
 				E75D295F1C87CD5200FAAD83 /* Main.storyboard */,
 				E75D29621C87CD5200FAAD83 /* Assets.xcassets */,
 				E75D29641C87CD5200FAAD83 /* LaunchScreen.storyboard */,
@@ -248,7 +248,7 @@
 				E75D298C1C88179800FAAD83 /* TimeLineModel.m in Sources */,
 				E75D29801C87D1E500FAAD83 /* UITapImageView.m in Sources */,
 				E75D297D1C87CE3800FAAD83 /* timeLineCell.m in Sources */,
-				E75D29851C87D97400FAAD83 /* ViewController1.m in Sources */,
+				E7C0DE2E1CAA373F00AB8390 /* PortraitViewController.m in Sources */,
 				E75D295E1C87CD5200FAAD83 /* ViewController.m in Sources */,
 				E75D295B1C87CD5200FAAD83 /* AppDelegate.m in Sources */,
 				E75D29581C87CD5200FAAD83 /* main.m in Sources */,
@@ -438,6 +438,7 @@
 				E75D29771C87CD5200FAAD83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E75D29781C87CD5200FAAD83 /* Build configuration list for PBXNativeTarget "timeLineTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +447,7 @@
 				E75D297A1C87CD5200FAAD83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
